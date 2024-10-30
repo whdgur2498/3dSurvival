@@ -38,14 +38,14 @@ public class PlayerCondition : MonoBehaviour, IDamageIbe
         }
     }
 
-    public void Heal(float amout)
+    public void Heal(float amount)
     {
-        health.Add(amout);
+        health.Add(amount);
     }
 
-    public void Eat(float amout) 
+    public void Eat(float amount) 
     {
-        hunger.Add(amout);
+        hunger.Add(amount);
     }
 
     public void Die()
